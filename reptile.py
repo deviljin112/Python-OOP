@@ -21,4 +21,4 @@ class Reptile(Animal):
         return "Kill'em!"
 
     def attract_mate_through_scent(self):
-        return "Tssss"
+        return "Tssss..."

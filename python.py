@@ -8,7 +8,7 @@ class Python(Snake):
         self.two_lungs = True
 
     def digest_large_pray(self):
-        return "big nom noms"
+        return "Big Nom Noms"
 
     def constrict(self):
         return "Chokeeeeee Time!"
