@@ -5,7 +5,7 @@ from animal import Animal
 class Reptile(Animal):
     def __init__(self, cold_blooded, tetrapod, amniotic_eggs):
         # Pre-define a variable in the parent
-        super().__init__(self, True)
+        super().__init__(True)
         self.cold_blooded = cold_blooded
         self.tetrapod = tetrapod
         self.heart_chambers = [3, 4]
