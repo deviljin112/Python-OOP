@@ -18,3 +18,11 @@ class Python(Snake):
 
     def shed_skin(self):
         return "Woopty Doopty Fresh Skin!"
+
+
+shnake = Python()
+
+print(f"Alive: {shnake.alive}")
+print(f"Cold Blooded: {shnake.cold_blooded}")
+print(f"Venom: {shnake.venom}")
+print(f"Two Lungs: {shnake.two_lungs}")
