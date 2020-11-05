@@ -20,11 +20,4 @@ class Python(Snake):
         return "Woopty Doopty Fresh Skin!"
 
 
-# Create an instance of the Python Class
-shnake = Python()
-
-# Print out some of the attributes from the Class and its Parents
-print(f"Alive: {shnake.alive}")
-print(f"Cold Blooded: {shnake.cold_blooded}")
-print(f"Venom: {shnake.venom}")
-print(f"Two Lungs: {shnake.two_lungs}")
+# print(f"This is the imported name of the file '{__name__}'")  # => python
