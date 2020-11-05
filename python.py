@@ -20,8 +20,10 @@ class Python(Snake):
         return "Woopty Doopty Fresh Skin!"
 
 
+# Create an instance of the Python Class
 shnake = Python()
 
+# Print out some of the attributes from the Class and its Parents
 print(f"Alive: {shnake.alive}")
 print(f"Cold Blooded: {shnake.cold_blooded}")
 print(f"Venom: {shnake.venom}")

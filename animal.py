@@ -1,6 +1,6 @@
 # Create a class
 class Animal:
-    # Initialise the class with variables
+    # Initialise the class with variables and take in an input at initialisation
     def __init__(self, alive):
         self.alive = alive  # Creates a variable within the class
         self.spine = True
