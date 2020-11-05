@@ -3,7 +3,7 @@ from snake import Snake
 
 class Python(Snake):
     def __init__(self):
-        super().__init__(True)
+        super().__init__(False)
         self.large = True
         self.two_lungs = True
 
