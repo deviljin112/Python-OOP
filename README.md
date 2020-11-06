@@ -69,3 +69,13 @@ class Python(Snake):
 - By creating 2 files that use `__name__` and `__main__` it will show the difference
 - File being imported will have a different name
 - File that is the main file used, will have its name set to `__main__`
+
+## Getters and Setters
+
+- We can make private variables in the `__init__`.
+- To do that we put `__` in front of the variable's name.
+- We can then create a `@property` which is a function that has variable-like behaviours.
+- A property doesnt need to be called with `()` instead the function has to return something, most often the hidden variable.
+- To edit the hidden variable we then use `@function_name.setter` this way we can alter / edit the hidden variable and adjust the input data so it matches our formatting.
+- The common use of Getter and Setter is for data manipulation to ensure that the format is intact and remains the same.
+- Another common use is to hide important variables so that the user cannot change/break the software by providing unexpected data.
